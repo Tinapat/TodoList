@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #000000;
+}
+
+.input::placeholder{
+    color: red;
+}
+
+.modal{
+    overflow: hidden;
+}
